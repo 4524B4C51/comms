@@ -1,10 +1,10 @@
 {
   "name": "comms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Technology agnostic structure for network and interpocess communication payloads",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "jest "
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,14 @@
   },
   "homepage": "https://github.com/4524B4C51/comms#readme",
   "devDependencies": {
+    "typescript": "*",
     "jest": "^20.0.4"
+  },
+  "jest": {
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testMatch": ["**/*.spec.(ts|tsx|js)"]
   }
 }
