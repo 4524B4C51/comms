@@ -12,7 +12,7 @@ const failure = (message: any) => {
   }
 }
 
-export default {
+export {
   success,
   failure
 }
