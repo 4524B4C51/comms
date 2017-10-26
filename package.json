@@ -1,8 +1,8 @@
 {
   "name": "comms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Technology agnostic structure for network and interpocess communication payloads",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jest "
   },
