@@ -1,6 +1,6 @@
 {
-  "name": "comms",
-  "version": "0.0.2",
+  "name": "dps_comms",
+  "version": "0.0.3",
   "description": "Technology agnostic structure for network and interpocess communication payloads",
   "main": "index.ts",
   "scripts": {
