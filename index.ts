@@ -1,14 +1,14 @@
-const success = (payload: any) => {
-    return {
-        success: true,
-        payload
-    }
-  }
-  
-const failure = (message: any) => {
+const success = (payload: string|object) => {
   return {
-      success: false,
-      message
+    success: true,
+    payload
+  }
+}
+  
+const failure = (message: string|object) => {
+  return {
+    success: false,
+    message
   }
 }
 
